@@ -19,7 +19,7 @@ npm i rad-deg-converter
 
 <code>Conversion</code>
 
-* __*Functions__*
+* __*Functions*__
 
 <code><b>.toDeg ()</b></code>
 <code><b>.toRad ()</b></code>
