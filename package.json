@@ -24,5 +24,8 @@
     "tangent"
   ],
   "author": "wazabix",
-  "license": "MIT"
+  "license": "MIT",
+
+  "homepage": "https://github.com/wazabix-BM/rad-deg-converter#readme",
+  "repository": "https://github.com/wazabix-BM/rad-deg-converter"
 }

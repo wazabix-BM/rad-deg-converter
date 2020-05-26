@@ -2,7 +2,7 @@
 
 [![Discord](https://img.shields.io/discord/519837781866840122?color=%237289DA&label=WaZaBiX%27s%20guild&logo=Discord)](https://discord.gg/ES52WDg)
 [![npm](https://img.shields.io/npm/v/rad-deg-converter?logo=npm)](https://www.npmjs.com/package/rad-deg-converter)
-[![NPM](https://img.shields.io/npm/l/rad-deg-converter?logo=github)]()
+[![NPM](https://img.shields.io/npm/l/rad-deg-converter?logo=github)](https://github.com/wazabix-BM/rad-deg-converter/blob/master/LICENSE.md)
 [![npm](https://img.shields.io/npm/dt/rad-deg-converter?logo=npm)](https://www.npmjs.com/package/rad-deg-converter)
 
 > Simple JS library to convert degrees to radians or conversely from radians to degrees
@@ -35,7 +35,7 @@ const {
 
 new Conversion ('25deg', (value) => {
     console.log (value.this.toRad ());
-    
+
     // Expected output: 0.4363323129985824
 });
 
