@@ -32,11 +32,14 @@ function Conversion (angle, callback) {
     const functions = {};
 
     functions.this = {
+        /**
+         * @function
+         * @name toDeg
+         * @return [angle] to degrees
+         */
+
         toDeg: () => {
             if (type === 'rad') {
-                if (parseInt (this.angle.replace ('rad', '')) > Math.PI || parseInt (this.angle.replace ('rad', '')) < -Math.PI)
-                    throw new Error ('An angle in radian is always in the range ]-PI ; PI[');
-
                 const calcul = (360 * parseInt (this.angle.replace ('rad', ''))) / (Math.PI * 2);
                 
                 return calcul;
@@ -44,7 +47,12 @@ function Conversion (angle, callback) {
             } else
                 throw new Error ('[angle] is already in degrees');
         },
-
+        /**
+         * @function
+         * @name toRad
+         * @return [angle] to radians
+         */
+        
         toRad: () => {
             if(type === 'deg') {
                 const calcul = ((Math.PI * 2) * parseInt (this.angle.replace ('deg', ''))) / 360;
