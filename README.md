@@ -15,11 +15,11 @@ npm i rad-deg-converter
 
 # API
 
-* __*Constructor*__
+* *Constructor*
 
-<code>Conversion</code>
+<code><b>Conversion</b></code>
 
-* __*Functions*__
+* *Functions*
 
 <code><b>.toDeg ()</b></code>
 <code><b>.toRad ()</b></code>
