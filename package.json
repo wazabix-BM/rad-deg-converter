@@ -1,6 +1,6 @@
 {
   "name": "rad-deg-converter",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple JS library to convert degrees to radians or conversely from radians to degrees",
   "main": "index.js",
   "scripts": {
